@@ -2,12 +2,7 @@ from typing import Sequence
 import numpy as np
 
 class MyNeuralNetwork:
-    """In this file, you'll implement your own multi-layer perceptron (aka a fully connected network). 
-    The net you'll implement has input dimension N, hidden layer dimension of H, and output dimension C. 
-    Your network will use a ReLU after each fully connected layer (except for the output).
-    We'll pass the outputs of the last fully-connected layer through a sigmoid.
-    """
-
+    
     def __init__(
         self,
         input_size: int,
